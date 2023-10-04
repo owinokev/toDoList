@@ -16,7 +16,7 @@ document.querySelector(".adding").addEventListener("click", function(){
   var textnode = document.createTextNode(notes)
   node.appendChild(textnode)
   document.getElementById("myList").appendChild(node)
-  document.querySelector("input").value =""
+  document.querySelector("input").value = " "
 
 
 })
